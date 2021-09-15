@@ -1,1 +1,10 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+
+.socialLinks {
+  margin-bottom: 2.5em;
+}
+
+.socialIcon {
+  color: #8ea885;
+  filter: invert(65%) sepia(25%) saturate(305%) hue-rotate(60deg) brightness(93%) contrast(89%);
+}
