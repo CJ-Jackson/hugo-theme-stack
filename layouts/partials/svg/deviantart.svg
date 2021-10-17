@@ -1,7 +1,0 @@
-<svg{{ with .size }} height="{{ . }}" {{ end }} width="{{ .size }}" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
-<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M295.52,35.82c-148.38,0-268.66,120.28-268.66,268.66s120.28,268.66,268.66,268.66s268.66-120.28,268.66-268.66
-	S443.9,35.82,295.52,35.82z M386.52,211.69l-53.13,96.91l4,5.14h49.13v69.1h-87.06l-7.3,4.98l-23.65,45.45
-	c-0.16,0-4.65,4.65-4.98,4.98h-50.16v-50.43l50.43-97.07l-4-4.98h-46.42v-69.04h84.41l7.3-4.98l23.65-45.45
-	c0.16,0,4.65-4.65,4.98-4.98h52.81V211.69z"/>
-</svg>

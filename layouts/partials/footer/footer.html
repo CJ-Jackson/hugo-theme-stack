@@ -1,9 +1,5 @@
 {{- $ThemeVersion := "3.2.0" -}}
 <footer class="site-footer">
-    <section class="socialLinks">
-        {{ partialCached "social/social-follow.html" . }}
-    </section>
-
     <section class="copyright">
         &copy; 
         {{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
