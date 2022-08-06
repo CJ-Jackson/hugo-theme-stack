@@ -1,3 +1,3 @@
-module github.com/CaiJimmy/hugo-theme-stack/v3
+module github.com/CJ-Jackson/hugo-theme-stack
 
 go 1.17
