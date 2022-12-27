@@ -19,15 +19,15 @@ body:
     id: hugo-version
     attributes:
       label: Hugo version
-      description: "What is the version of Hugo you are using? (Note: this theme does not support non-extended version of Hugo)"
+      description: "What is the version of Hugo you are using? (Note: this themes does not support non-extended version of Hugo)"
       placeholder: ex. 0.100.0
     validations:
       required: true
   - type: input
-    id: theme-version
+    id: themes-version
     attributes:
       label: Theme version
-      description: "What is the version of Stack theme you are using?"
+      description: "What is the version of Stack themes you are using?"
       placeholder: ex. 3.12.0
     validations:
       required: true
