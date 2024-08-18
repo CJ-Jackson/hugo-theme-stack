@@ -1,9 +1,9 @@
 baseurl = "https://example.com"
 languageCode = "en-us"
 theme = "hugo-theme-stack"
-paginate = 5
+paginate = 3
 title = "Example Site"
-disqusShortname = "hugo-theme-stack"
+copyright = "Example Person"
 DefaultContentLanguage = "en"
 hasCJKLanguage = false
 
@@ -12,15 +12,26 @@ hasCJKLanguage = false
 languageName = "English"
 title = "Example Site"
 weight = 1
+[languages.en.params]
+description = "Example description"
 [languages.zh-cn]
 languageName = "中文"
 title = "演示站点"
 weight = 2
+[languages.zh-cn.params]
+description = "演示说明"
 [languages.ar]
 languageName = "عربي"
 languagedirection = "rtl"
 title = "موقع تجريبي"
 weight = 3
+[languages.ar.params]
+description = "وصف تجريبي"
+
+[services]
+[services.disqus]
+shortname = "hugo-theme-stack"
+[services.googleAnalytics]
 
 [permalinks]
 post = "/p/:slug/"
@@ -54,6 +65,8 @@ enabled = true
 provider = "disqus"
 [params.comments.disqusjs]
 [params.comments.utterances]
+issueTerm = "pathname"
+[params.comments.beaudar]
 issueTerm = "pathname"
 [params.comments.remark42]
 [params.comments.vssue]
@@ -144,7 +157,7 @@ weight = 200
 [markup]
 [markup.goldmark]
 [markup.goldmark.renderer]
-unsafe = false
+unsafe = true
 [markup.tableOfContents]
 endLevel = 4
 ordered = true

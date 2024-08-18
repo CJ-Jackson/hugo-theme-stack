@@ -18,6 +18,7 @@ enabled = true
 local = true
 src = "img/avatar.png"
 [params.article]
+headingAnchor = false
 math = false
 toc = true
 readingTime = true
@@ -30,12 +31,14 @@ provider = "disqus"
 [params.comments.disqusjs]
 [params.comments.utterances]
 issueTerm = "pathname"
+[params.comments.beaudar]
+issueTerm = "pathname"
 [params.comments.remark42]
 [params.comments.vssue]
 autoCreateIssue = false
 [params.comments.waline]
 emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
-requiredMeta = ["name", "email", "url"]
+requiredMeta = ["nick", "mail"]
 [params.comments.waline.locale]
 admin = "Admin"
 [params.comments.twikoo]
